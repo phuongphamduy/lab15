@@ -1,0 +1,158 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+header {
+    background: url(./img/fptsinhvien.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 30%;
+    position: relative;
+}
+
+header .resgiter {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: orangered;
+    border-bottom-left-radius: 30px;
+}
+
+.resgiter li {
+    display: inline-block;
+
+}
+
+.resgiter li a {
+    display: block;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.resgiter li a:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.heading {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    text-align: center;
+}
+
+.heading h1 {
+    color: white;
+    text-shadow: 0px 0px 10px orangered;
+    font-variant: small-caps;
+}
+
+.heading h4 {
+    font-variant: small-caps;
+    color: white;
+    text-shadow: 0px 0px 10px green;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: orangered;
+    position: relative;
+}
+
+nav .menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.laguange li,
+.menu li {
+    display: inline-block;
+}
+.laguange li a,
+.menu li a {
+    display: block;
+    line-height: 40px;
+    font-variant: small-caps;
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.laguange li a:hover,
+.menu li a:hover {
+    background-color: white;
+    color: orangered;
+}
+
+nav .laguange {
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+article {
+    width: 70%;
+    float: left;
+    max-height: 400px;
+}
+
+article > iframe{
+    width: 100%;
+    height: 100%;
+}
+aside{
+    border-top: 1px solid yellow;
+    float: left;
+    width: 30%;
+    min-height: 400px;
+    background-color: orangered;
+}
+
+aside > iframe {
+    width: 100%;
+}
+
+aside .list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+
+}
+
+.list li {
+    
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 30px;
+}
+
+.list li a:hover {
+    background-color: white;
+    color: orangered;
+}
+
+footer{
+    background-color: green;
+    clear: both;
+    color: yellow;
+    font-variant: small-caps;
+    text-align: center;
+    line-height: 40px;
+}
